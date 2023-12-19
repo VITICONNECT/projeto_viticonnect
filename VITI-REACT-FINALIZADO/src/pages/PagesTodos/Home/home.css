@@ -1,0 +1,99 @@
+:root {
+  --ciano-medio: #05676E;
+  --ciano-claro: #95D4D9;
+  --verde-claro: #489C79;
+  --roxo-claro: #4D1D4D;
+  --roxo-escuro: #1A081F;
+  --lilas: #A68EA6;
+  --creme-fundo: #F5F4F2;
+
+  --ciano-medio-opacidade: #05697080;
+  --ciano-claro-opacidade: #96d5d980;
+  --verde-claro-opacidade: #489d7a80;
+  --roxo-claro-opacidade: #4e1d4e80;
+  --roxo-escuro-opacidade: #1b082080;
+  --lilas-opacidade: #a58da580;
+}
+
+.home {
+    height: auto;
+}
+
+.c1 {
+    height: 100vh;
+    background-size: cover;
+  }
+
+
+
+
+  .backHomeInicial{   
+    background-image: url(../src/LoginAssets/back2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1000;
+  }
+  
+
+
+
+
+  
+[class^="number-slide"],
+[class*=" number-slide"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  width: 100vw;
+  height: 90vh;
+  max-height: 100vh; 
+  cursor: grab;
+}
+
+
+.twentytwenty-handle:active{
+  cursor: grabbing;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.number-slide1 {
+background: #fff;
+
+
+}
+
+.number-slide2 {
+background: #fff;
+
+/* 
+  background: rgb(166,142,166);
+background: linear-gradient(1deg, rgba(166,142,166,1) 0%, rgba(5,103,110,1) 100%); */
+}

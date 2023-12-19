@@ -1,0 +1,44 @@
+:root {
+    --ciano-medio: #05676E;
+    --ciano-claro: #95D4D9;
+    --verde-claro: #489C79;
+    --roxo-claro: #4D1D4D;
+    --roxo-escuro: #1A081F;
+    --lilas: #A68EA6;
+    --creme-fundo: #F5F4F2;
+
+    --ciano-medio-opacidade: #05697080;
+    --ciano-claro-opacidade: #96d5d980;
+    --verde-claro-opacidade: #489d7a80;
+    --roxo-claro-opacidade: #4e1d4e80;
+    --roxo-escuro-opacidade: #1b082080;
+    --lilas-opacidade: #a58da580;
+}
+
+.backCompra{  
+    background-image: url(../src/LoginAssets/back2.png);
+       background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        background-size: cover;
+        background-attachment: fixed;
+        position: absolute;
+}
+
+
+h1{
+    text-align: center;
+    margin: auto;
+    color: var(--lilas);
+}
+
+.comprarimg img{
+    width: 80%;
+    height: 80vh;
+margin: auto;
+justify-content: center;
+margin-top: 10vh;
+filter: blur(4px);
+display: block;
+}

@@ -1,0 +1,105 @@
+:root {
+    --ciano-medio: #05676E;
+    --ciano-claro: #95D4D9;
+    --verde-claro: #489C79;
+    --roxo-claro: #4D1D4D;
+    --roxo-escuro: #1A081F;
+    --lilas: #A68EA6;
+    --creme-fundo: #F5F4F2;
+
+    --ciano-medio-opacidade: #05697080;
+    --ciano-claro-opacidade: #96d5d980;
+    --verde-claro-opacidade: #489d7a80;
+    --roxo-claro-opacidade: #4e1d4e80;
+    --roxo-escuro-opacidade: #1b082080;
+    --lilas-opacidade: #a58da580;
+}
+
+
+
+.backPerfilProfissional{   
+  background-image: url(../src/LoginAssets/back2.png);
+  background-repeat: no-repeat;
+    width: 100%;
+    padding: 10px;
+    height: 88vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    overflow: hidden;
+  }
+
+
+  #containerPerfilProfssional {
+    display:flex;
+    margin: auto;
+    width: auto;   
+     overflow: hidden;
+    background: transparent;
+    border: 1px solid var(--verde-claro);
+    box-shadow: 0px 0px 30px 5px var(--roxo-claro)!important; 
+    border-radius: 10px;
+    height: auto;
+    margin-top: 8vh;
+  
+  }
+  
+  
+  
+  .servicoPerfilProfssional {
+    justify-content: center;
+        overflow: hidden;
+
+    display:grid;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  #h1ServicoPerfilProfssional {
+  
+    color: var(--roxo-claro)!important;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    font-size: 2.3rem;
+  
+  }
+
+
+
+  
+
+  .btnAtualizar {
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    margin: 5px;
+
+    font-size: 16px;
+    background:transparent!important;
+    border: 1px solid var(--roxo-claro) !important;
+    color: var(--roxo-claro) !important;
+    width: 70vh;
+    margin-top: 3vh;
+    transition: 0.3s ease;
+  }
+  .btnAtualizar:hover {
+    background: var(--lilas)!important;
+    color: var(--whiteColor)!important;
+  }
+  .btnAtualizar:hover .icon {
+    margin-left: 0.5rem;
+    color: var(--whiteColor);
+    transform: translateX(7px);
+  }
+  
+  .btnAtualizar .icon {
+    font-size: 24px;
+    transition: 0.3s ease;
+  }
+  
+
+

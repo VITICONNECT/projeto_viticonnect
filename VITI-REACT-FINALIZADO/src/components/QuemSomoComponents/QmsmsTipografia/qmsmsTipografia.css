@@ -1,0 +1,35 @@
+
+.tipografia-qmsms {
+    font-size: 70px;
+    font-weight: 400;
+    color: var(--roxo-claro);
+    text-align: center;
+   /*  margin-top: 10vh;
+     */
+}
+
+.fonte-qmsms {
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--roxo-claro);
+    text-align: center;
+    margin-left: 222px;
+}
+
+#containerMancha{
+        display: flex;
+        align-items: center;
+        top: 20vh;
+}
+
+#textosTipografia{
+            padding-bottom: 15vh;
+}
+
+#mancha-direita-qmsms {
+    position: absolute;
+    width: 90%;
+    height: 120vh;
+    right: 0;
+    z-index: -1;
+}

@@ -1,0 +1,6 @@
+ALTER TABLE servicos
+DROP COLUMN Plano,
+DROP COLUMN Vantagens,
+DROP COLUMN Preco;
+
+

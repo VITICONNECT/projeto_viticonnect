@@ -1,0 +1,25 @@
+:root {
+  --roxo-escuro: #1A081F;
+  --roxo-claro: #4D1D4D;
+  --ciano-medio: #05676E;
+  --lilas: #A68EA6;
+
+  --verde-claro: #489C79;
+  --ciano-claro:#95D4D9;
+  --branco: #FFF;
+  --gradient:rgb(5,103,110) linear-gradient(180deg, rgba(5,103,110,1) 0%, rgba(26,8,31,1) 100%);
+  --fonte-principal: "Oswald", sans-serif;
+  --fonte-secundaria: "Playfair Display", sans-serif;
+  font-family: var(--fonte-principal);
+}
+
+.linkDestacado {
+  font-size: 18px !important;
+  color: var(--ciano-medio) !important;
+  transition: 0.3s ease;
+}
+
+.link {
+  font-size: 16px;
+  line-height: 1.5rem;
+}

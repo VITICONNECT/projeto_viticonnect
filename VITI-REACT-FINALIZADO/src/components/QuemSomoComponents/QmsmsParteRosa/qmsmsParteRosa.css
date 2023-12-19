@@ -1,0 +1,21 @@
+
+.parte-rosa-qmsms img {
+    width: 1000px;
+    filter: drop-shadow(0px 0px 20px var(--roxo-claro));
+    z-index: -1;
+}
+
+.parte-rosa-qmsms {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.parte-rosa-qmsms p {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--lilas);
+    text-align: center;
+    margin-top: 320px;
+    width: 800px;
+    margin-right: 100px;
+}

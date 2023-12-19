@@ -1,0 +1,382 @@
+:root {
+  --ciano-medio: #05676E;
+  --ciano-claro: #95D4D9;
+  --verde-claro: #489C79;
+  --roxo-claro: #4D1D4D;
+  --roxo-escuro: #1A081F;
+  --lilas: #A68EA6;
+  --creme-fundo: #F5F4F2;
+
+  --ciano-medio-opacidade: #05697080;
+  --ciano-claro-opacidade: #96d5d980;
+  --verde-claro-opacidade: #489d7a80;
+  --roxo-claro-opacidade: #4e1d4e80;
+  --roxo-escuro-opacidade: #1b082080;
+  --lilas-opacidade: #a58da580;
+}
+
+.containerqsm {
+
+
+  position: relative;
+  /*A positionpropriedade especifica o tipo de método de posicionamento usado para um elemento (estático, relativo, fixo, absoluto ou fixo).*/
+  overflow: hidden;
+  /*A overflowpropriedade CSS controla o que acontece com o conteúdo que é grande demais para caber em uma área.*/
+
+}
+
+.backQSM{   
+  background-image: url(../src/LoginAssets/back2.png);
+ background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1000;
+}
+
+  
+
+
+
+
+
+
+
+
+.containerTeam h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 7vh;
+  padding: 0;
+  
+  color: var(--ciano-medio);
+
+}
+
+.vitiTeam img {
+
+  width: 25vh;
+  height: 25vh;
+}
+
+.vitiTeam {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+  justify-content: center;
+  gap: 5vh;
+  margin-top: 10vh;
+  /*     background: red;
+ */
+}
+
+
+
+.containergustavo {
+  display: flex;
+  flex-direction: column;
+}
+
+.containergustavo span {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--roxo-escuro );
+}
+
+
+
+
+/* quemsomos parte verde
+ */
+.qsmverde {
+
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+}
+
+#t-verde-qmsms {
+  font-size: 70px;
+  font-weight: 400;
+  color: var(--ciano-medio);
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: -100px;
+}
+
+.parte-verde-qmsms {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -250px;
+}
+
+.parte-verde-qmsms p {
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--ciano-medio);
+  width: 800px;
+  margin-top: 320px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.parte-verde-qmsms img {
+  width: 1000px;
+  filter: drop-shadow(0px 0px 20px var(--roxo-claro));
+  z-index: -1;
+}
+
+
+
+
+
+
+
+.imglogologo img{
+  height: 70vh;  
+  width: 70vh;
+}
+
+.imglogologo{
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  padding: 15vh;
+  margin-top: 50vh;
+  height: 80vh;
+
+}
+
+.imglogologo h1{
+  color: var(--ciano-claro);
+
+}
+
+
+
+.qsmrosa {
+
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+}
+
+
+.parte-rosa-qmsms img {
+  width: 1000px;
+  filter: drop-shadow(0px 0px 20px var(--roxo-claro));
+  z-index: -1;
+}
+
+.parte-rosa-qmsms {
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.parte-rosa-qmsms p {
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--lilas);
+  text-align: center;
+  margin-top: 320px;
+  width: 800px;
+  margin-right: 100px;
+}
+
+/* quemm somos tipografia
+ */
+
+
+
+.tipografia-qmsms {
+  font-size: 70px;
+  font-weight: 400;
+  color: var(--roxo-claro);
+
+}
+
+.fonte-qmsms {
+  font-size: 35px;
+  font-weight: 400;
+  color: var(--roxo-claro);
+  text-align: center;
+  width: 80%;
+
+}
+
+#containerMancha {
+  display: flex;
+  align-items: center;
+  height: 130vh;
+  text-align: center;
+
+  width: 100vw;
+  position: relative;
+}
+
+#textosTipografia {
+  padding-bottom: 50vh;
+  
+}
+
+#mancha-direita-qmsms {
+  position: absolute;
+  width: 95%;
+  height: 120vh;
+  margin-bottom: 40vh;
+  right: 0;
+  z-index: -1;
+}
+
+
+
+/*  missao e valores
+ */
+
+.missaovalores {
+text-align: center;
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 50vh;
+
+}
+.missaovalores h1 {
+font-size: 5rem;
+}
+.missaovalores span{
+  font-size: 1.5rem;
+
+}
+
+.containerFuturo {
+  height: 200vh;
+  width: 100vw;
+  margin-top: 10vh;
+
+}
+
+.containerFuturo img {
+
+  height: 100vh;
+  width: 100vh;
+  z-index: -1;
+
+}
+
+.futuromobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:10vh;
+
+}
+
+.textfuturo {
+  text-align: center;
+  width: 100vh;
+  /*   margin-top: 10vh;
+
+
+ */
+  padding-right: 10vh;
+
+}
+
+.textfuturo h1 {
+  color: var(--roxo-claro);
+  font-size: 5rem;
+  font-weight: 400;
+
+}
+
+.textfuturo span {
+  font-size: 1.5rem;
+  color: var(--roxo-claro);
+
+
+
+}
+.mySwiperQuem{
+
+  height: 90vh!important;
+  width: 50%!important;
+  
+}
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
+.textCardSliderQuem{
+  font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+/* titulo
+ */
+
+.qsmtitulo {
+  position: relative;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 30vh;
+
+}
+
+#textosPrincipal {
+  text-align: center;
+  margin-left: 35vh;
+  margin-top: 40vh;
+
+
+}
+
+#textosPrincipal h1 {
+  font-size: 5rem;
+  color: var(--roxo-claro);
+}
+
+#textosPrincipal span {
+  font-size: 2rem;
+  color: var(--roxo-claro);
+}
+
+
+#textosPrincipal img {
+  width: 100%;
+  height: 150vh;
+  left: 0;
+  top: 0;
+  z-index: -1;
+
+}

@@ -1,0 +1,30 @@
+
+.conscientizacao {
+    display: flex;
+    align-items: center;
+}
+
+.conscientizacao img {
+    width: 628px;
+    filter: drop-shadow(0px 0px 20px var(--roxo-claro));
+    z-index: -1;
+}
+
+.conscientizacao div {
+    text-align: right;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+.conscientizacao h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--lilas);
+    margin-bottom: 62px;
+}
+
+.conscientizacao p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--lilas);
+}

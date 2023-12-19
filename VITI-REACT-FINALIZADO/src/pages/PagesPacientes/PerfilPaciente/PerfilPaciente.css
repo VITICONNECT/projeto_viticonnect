@@ -1,0 +1,133 @@
+:root {
+    --ciano-medio: #05676E;
+    --ciano-claro: #95D4D9;
+    --verde-claro: #489C79;
+    --roxo-claro: #4D1D4D;
+    --roxo-escuro: #1A081F;
+    --lilas: #A68EA6;
+    --creme-fundo: #F5F4F2;
+
+    --ciano-medio-opacidade: #05697080;
+    --ciano-claro-opacidade: #96d5d980;
+    --verde-claro-opacidade: #489d7a80;
+    --roxo-claro-opacidade: #4e1d4e80;
+    --roxo-escuro-opacidade: #1b082080;
+    --lilas-opacidade: #a58da580;
+}
+
+
+.backPerfilPaciente{   
+  background-image: url(../src/LoginAssets/back2.png);
+   background-repeat: no-repeat;
+    width: 100%;
+    padding: 13vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    overflow: hidden;
+  }
+
+
+  #containerPerfilPaciente {
+    display:flex;
+    margin: auto;
+    width: auto;    overflow: hidden;
+
+    background: transparent;
+    border: 1px solid var(--verde-claro);
+    box-shadow: 0px 0px 30px 5px var(--ciano-medio)!important; 
+    border-radius: 10px;
+    height: auto;
+  }
+  
+  
+  
+  .servicoPerfilPaciente{
+    justify-content: center;
+        overflow: hidden;
+
+    display:grid;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  
+  #h1ServicoPerfilPaciente {
+  
+    color: var(--roxo-claro)!important;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    font-size: 2.3rem;
+  
+  }
+
+
+
+  
+
+  .btnAtualizarPaciente {
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    margin: 5px;
+    font-size: 16px;
+    background:transparent!important;
+    border: 1px solid var(--ciano-medio) !important;
+    color: var(--ciano-medio) !important;
+    width: 70vh;
+    margin-top: 3vh;
+    transition: 0.3s ease;
+  }
+  .btnAtualizarPaciente:hover {
+    background: var(--roxo-claro)!important;
+    color: var(--whiteColor)!important;
+  }
+  .btnAtualizarPaciente:hover .icon {
+    margin-left: 0.5rem;
+    color: var(--whiteColor);
+    transform: translateX(7px);
+  }
+  
+  .btnAtualizarPaciente .icon {
+    font-size: 24px;
+    transition: 0.3s ease;
+  }
+  
+
+  
+.btnVoltarPacientePerfil {
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  background:var(--roxo-claro);
+  border: 0px solid #fff !important;
+  padding: 10px;
+  justify-content: center;
+  color: #fff !important;
+  width: 25vh;
+  position: relative;
+  margin-bottom: 10vh;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+.btnVoltarPacientePerfil:hover {
+  background: var(--verde-claro)!important;
+  color: var(--whiteColor);
+}
+.btnVoltarPacientePerfil:hover .icon {
+  margin-right: 0.5rem;
+  color: var(--whiteColor);
+  transform: translateX(-10px);
+}
+
+.btnVoltarPacientePerfil .icon {
+  font-size: 24px;
+  transition: 0.3s ease;
+}
+
+

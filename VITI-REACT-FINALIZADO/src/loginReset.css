@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+:root {
+  --primaryColor: #05676E;
+  --laranja: #A68EA6;
+  --hoverColor: #05676E;
+  --paleGreen: #A68EA6;
+  --whiteColor: hsl(0, 8%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 75%);
+  --bgColor: hsl(113, 11%, 85%);
+  --inputColor: hsl(330, 12%, 97%);
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem; }
+
+.flex {
+  display: flex;
+  align-items: center; }
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5em; }
+
+html {
+  font-size: 90%!important; }
+
+a {
+  text-decoration: none!important; }
+
+li {
+  list-style: none; }
+
+.icon {
+  font-size: var(--h2FontSize);
+  cursor: pointer; }
+
+img {
+  height: auto;
+  width: 100%; }
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.8rem 1rem!important;
+  color: var(--greyText); }
+
+.btnProfissional {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px!important;
+  padding: 0.8rem 1rem!important;
+  color: var(--greyText); }
+
+Link {
+  text-decoration: none!important; }
+
+.btn .icon {
+  margin-left: 0.5rem!important; }
+
+.btnprof .icon {
+  margin-left: 0.5rem!important;
+  transition: 0.3s ease; }
+
+.btn:hover {
+  color: var(--primaryColor);
+  background: var(--paleGreen); }
+
+/* Pages style */
+.loginPage, .registerPage {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background: url(../src/LoginAssets/backOFICIAL2.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+
+
+  box-shadow: 0 7px 50px #d6dfd5; }
+  .loginPage .container, .registerPage .container {
+    height: 85vh;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #e3e3e3; }
+  .loginPage .videoDiv, .registerPage .videoDiv {
+    position: relative;
+    display: flex;
+    flex-basis: 50%;
+    /*   background-color: #05676E; */
+    /*   background: rgb(5,103,110);
+  background: linear-gradient(180deg, rgba(5,103,110,1) 0%, rgba(77,29,77,1) 100%); */
+  background: rgb(166,142,166);
+background: linear-gradient(1deg, rgba(166,142,166,1) 0%, rgba(5,103,110,1) 100%);
+    width: 70%;
+    height: 100%;
+    padding: 0 1.5rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden; }
+    .loginPage .videoDiv img, .loginPage .videoDiv .footerDiv, .registerPage .videoDiv img, .registerPage .videoDiv .footerDiv {
+      position: absolute; }
+    .loginPage .videoDiv .img1, .registerPage .videoDiv .img1 {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+    .loginPage .videoDiv .footerDiv, .registerPage .videoDiv .footerDiv {
+      bottom: 10px;
+      margin-left: 5%;
+      padding: 0 1rem;
+      height: 70px;
+      width: 90%;
+      background: rgba(255, 255, 255, 0.258);
+      left: 0;
+      right: 0;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      backdrop-filter: blur 1px;
+      border-radius: 10px; }
+      .loginPage .videoDiv .footerDiv .text, .registerPage .videoDiv .footerDiv .text {
+        color: var(--whiteColor); }
+      .loginPage .videoDiv .footerDiv .btn, .registerPage .videoDiv .footerDiv .btn {
+        width: 20vh;
+        gap: 1rem; }
+  .loginPage .fundo2, .registerPage .fundo2 {
+    position: relative;
+    display: flex;
+    flex-basis: 50%;
+    /* background-color: #4D1D4D; */
+    /* background: rgb(5,103,110);
+    background: linear-gradient(180deg, rgba(5,103,110,1) 0%, rgba(77,29,77,1) 100%); */
+    background: rgb(166,142,166);
+    background: linear-gradient(1deg, rgba(166,142,166,1) 0%, rgba(5,103,110,1) 100%);
+    width: 70%;
+    height: 100%;
+    padding: 0 1.5rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden; }
+    .loginPage .fundo2 img, .loginPage .fundo2 .footerDiv2, .registerPage .fundo2 img, .registerPage .fundo2 .footerDiv2 {
+      position: absolute; }
+    .loginPage .fundo2 .img12, .registerPage .fundo2 .img12 {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+    .loginPage .fundo2 .footerDiv2, .registerPage .fundo2 .footerDiv2 {
+      bottom: 10px;
+      padding: 0 1rem;
+      margin-left: 5%;
+      width: 90%;
+      height: 70px;
+      background: rgba(255, 255, 255, 0.258);
+      left: 0;
+      display: flex;
+      right: 0;
+      justify-content: space-between;
+      backdrop-filter: blur 1px;
+      border-radius: 10px; }
+      .loginPage .fundo2 .footerDiv2 .text2, .registerPage .fundo2 .footerDiv2 .text2 {
+        color: var(--whiteColor); }
+      .loginPage .fundo2 .footerDiv2 .btnProfissional, .registerPage .fundo2 .footerDiv2 .btnProfissional {
+        width: 20vh!important;
+        gap: 1rem!important; }
+  .loginPage .formDiv, .registerPage .formDiv {
+    flex-basis: 50%;
+    margin-right: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+    margin-bottom: 10px; }
+    .loginPage .formDiv .btn, .registerPage .formDiv .btn {
+      margin-top: 20px; }
+    .loginPage .formDiv .footerDiv, .registerPage .formDiv .footerDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .loginPage .formDiv .footerDiv .btn, .registerPage .formDiv .footerDiv .btn {
+        width: 30vh; }
+      .loginPage .formDiv .footerDiv .text, .registerPage .formDiv .footerDiv .text {
+        position: relative; }
+  .loginPage .headerDiv, .registerPage .headerDiv {
+    text-align: center; }
+    .loginPage .headerDiv .text, .registerPage .headerDiv .text {
+      font-size: 17px!important ;
+      padding: 0; }
+  .loginPage img, .registerPage img {
+    width: 80px; }
+  .loginPage h3, .registerPage h3 {
+    font-size: 35px!important;
+    color: var(--blackColor);
+    font-weight: 600; }
+  .loginPage p, .registerPage p {
+    font-size: 14px!important;
+    color: #4D1D4D; }
+  .loginPage .form, .registerPage .form {
+    gap: 0.3rem; }
+    .loginPage .form .btnProfissional, .registerPage .form .btnProfissional {
+      padding: 0.8rem;
+      background: var(--laranja);
+      border-radius: 10px;
+      cursor: pointer;
+      color: var(--whiteColor);
+      align-items: center;
+      margin-top: 20px;
+      
+      justify-content: center;
+      font-size: 16px!important;
+      width: 40vh;
+      gap: 0.2rem;
+      transition: 0.3s ease; }
+      .loginPage .form .btnProfissional:hover, .registerPage .form .btnProfissional:hover {
+        background: var(--roxo-claro)!important;
+        color: var(--whiteColor); }
+        .loginPage .form .btnProfissional:hover .icon, .registerPage .form .btnProfissional:hover .icon {
+          color: var(--whiteColor);
+          transform: translateX(7px); }
+  .loginPage .inputDiv .icon, .registerPage .inputDiv .icon {
+    color: var(--greyText); }
+  .loginPage .inputDiv input, .registerPage .inputDiv input {
+    background: none;
+    outline: none;
+    border: none;
+    width: 200px; }
+  .loginPage .inputDiv label, .registerPage .inputDiv label {
+    color: var(--blackColor);
+    font-weight: 400;
+    font-size: 14px!important;
+    padding: 0.5rem 0;
+    display: block; }
+  .loginPage .input, .registerPage .input {
+    gap: 0.4rem;
+    padding: 1rem;
+    background: var(--inputColor);
+    border-radius: 10px; }
+  .loginPage .formDivProfissional, .registerPage .formDivProfissional {
+    flex-basis: 50%;
+    margin-right: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+    margin-bottom: 10px; }
+    .loginPage .formDivProfissional .footerDivProfessional, .registerPage .formDivProfissional .footerDivProfessional {
+      gap: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .loginPage .formDivProfissional .footerDivProfessional .btnProfissional, .registerPage .formDivProfissional .footerDivProfessional .btnProfissional {
+        width: 20vh; }
+      .loginPage .formDivProfissional .footerDivProfessional .textProfissioonal, .registerPage .formDivProfissional .footerDivProfessional .textProfissioonal {
+        position: relative; }
+  .loginPage .headerDivProfissional, .registerPage .headerDivProfissional {
+    text-align: center;
+    padding: 0 0; }
+    .loginPage .headerDivProfissional .textProfissional, .registerPage .headerDivProfissional .textProfissional {
+      font-size: 17px; }
+  .loginPage img, .registerPage img {
+    width: 80px; }
+  .loginPage h3, .registerPage h3 {
+    font-size: 35px;
+    color: var(--blackColor);
+    font-weight: 600; }
+  .loginPage p, .registerPage p {
+    font-size: 14px;
+    color: #4D1D4D; }
+  .loginPage .formProfissional, .registerPage .formProfissional {
+    flex-basis: 50%;
+    margin-right: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 10px; }
+  .loginPage .inputDivProfissional .icon, .registerPage .inputDivProfissional .icon {
+    color: var(--greyText); }
+  .loginPage .inputDivProfissional input, .registerPage .inputDivProfissional input {
+    background: none;
+    outline: none;
+    border: none;
+    width: 200px; }
+  .loginPage .inputDivProfissional label, .registerPage .inputDivProfissional label {
+    color: var(--blackColor);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0.5rem 0;
+    display: block; }
+  .loginPage .inputProfissional, .registerPage .inputProfissional {
+    gap: 0.5rem;
+    padding: 1rem;
+    background: var(--inputColor);
+    border-radius: 10px; }
+  .loginPage .btnclie, .registerPage .btnclie {
+    padding: 0.8rem;
+    background: transparent;
+    border: 1px solid #05676E;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #05676E;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    font-size: 16px!important;
+    width: 40vh;
+    gap: 0.2rem;
+    transition: 0.3s ease; }
+    .loginPage .btnclie:hover, .registerPage .btnclie:hover {
+      background: var(--hoverColor);
+      color: var(--whiteColor);
+      border: 1px solid  white; }
+      .loginPage .btnclie:hover .icon, .registerPage .btnclie:hover .icon {
+        color: var(--whiteColor);
+        transform: translateX(7px); }
+  .loginPage .btn .icon, .registerPage .btn .icon {
+    font-size: 25px;
+    transition: 0.3s ease; }
+  .loginPage .btn:hover, .registerPage .btn:hover {
+    background: #1A081F;
+    color: var(--whiteColor); }
+  .loginPage .btnprof, .registerPage .btnprof {
+    padding: 0.8rem!important;
+    background: transparent;
+    border: 1px solid #4D1D4D;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #4D1D4D;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 16px!important;
+    width: 30vh!important;
+    gap: 0.2rem!important;
+    transition: 0.3s ease; }
+    .loginPage .btnprof:hover, .registerPage .btnprof:hover {
+      background: var(--laranja);
+      color: var(--whiteColor);
+      border: none; }
+      .loginPage .btnprof:hover .icon, .registerPage .btnprof:hover .icon {
+        color: var(--whiteColor);
+        transform: translateX(7px); }
+  .loginPage .btn .icon, .registerPage .btn .icon {
+    font-size: 25px;
+    transition: 0.3s ease; }
+  .loginPage .btn:hover, .registerPage .btn:hover {
+    background: #1A081F;
+    color: var(--whiteColor); }
+  .loginPage .btn, .registerPage .btn {
+    padding: 0.8rem!important;
+    background: var(--primaryColor);
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--whiteColor);
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%!important;
+    gap: 0.2rem!important;
+    transition: 0.3s ease; }
+    .loginPage .btn:hover, .registerPage .btn:hover {
+      background: var(--paleGreen);
+      color: var(--whiteColor); }
+      .loginPage .btn:hover .icon, .registerPage .btn:hover .icon {
+        color: var(--whiteColor);
+        transform: translateX(7px); }
+  .loginPage .btn .icon, .registerPage .btn .icon {
+    font-size: 25px;
+    transition: 0.3s ease; }
+  .loginPage .btn:hover, .registerPage .btn:hover {
+    background: #1A081F;
+    color: var(--whiteColor); }
+  .loginPage .btnProfissional, .registerPage .btnProfissional {
+    padding: 0.8rem;
+    background: var(--laranja);
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--whiteColor);
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    font-size: 16px;
+    width: 34vh;
+    gap: 0.2rem;
+    transition: 0.3s ease; }
+    .loginPage .btnProfissional:hover, .registerPage .btnProfissional:hover {
+      background: #1A081F;
+      color: var(--whiteColor); }
+      .loginPage .btnProfissional:hover .icon, .registerPage .btnProfissional:hover .icon {
+        color: var(--whiteColor);
+        transform: translateX(7px); }
+  .loginPage .btnProfissional .icon, .registerPage .btnProfissional .icon {
+    font-size: 25px;
+    transition: 0.3s ease; }
+  .loginPage .btnProfissional:hover, .registerPage .btnProfissional:hover {
+    background: var(--roxo-claro)!important;
+    color: var(--whiteColor); }
+  .loginPage .forgotPassword, .registerPage .forgotPassword {
+    font-size: 13px;
+    color: var(--blackColor);
+    opacity: 0.7;
+    text-align: center; }
+  .loginPage .forgotPassword a, .registerPage .forgotPassword a {
+    text-decoration: underline;
+    color: #4D1D4D;
+    cursor: pointer;
+    opacity: 1; }
+
+@media screen and (max-width: 500px) {
+  .heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem; } }
+
+@media screen and (max-width: 918px) {
+  .heading {
+    flex-direction: row;
+    align-self: center;
+    gap: 1rem; } }
+
+@media screen and (max-width: 990px) {
+  .heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem; } }
+
+@media screen and (max-width: 602px) {
+  .loginPage .container {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 1.5rem; }
+  .loginPage .videoDiv {
+    width: 100%; } }

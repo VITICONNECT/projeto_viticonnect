@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Poppins:wght@100;200;300;400;600&display=swap");
+:root {
+  --ciano-medio: #05676E;
+  --ciano-claro: #95D4D9;
+  --verde-claro: #489C79;
+  --roxo-claro: #4D1D4D;
+  --lilas: #A68EA6;
+  --creme-fundo: #F5F4F2;
+  --ciano-medio-opacidade: rgba(5, 105, 112, 0.1);
+  --ciano-claro-opacidade: rgba(150, 213, 217, 0.5);
+  --verde-claro-opacidade: rgba(72, 157, 122, 0.5);
+  --roxo-claro-opacidade: rgba(78, 29, 78, 0.5);
+  --lilas-opacidade: rgba(165, 141, 165, 0.75); }
+
+.icon {
+  font-size: var(--h2FontSize);
+  cursor: pointer; }
+
+  .backForum{   
+    background-image: url(../src/LoginAssets/back2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 80px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+.containerForm {
+  max-width: 900px;
+  margin:auto;
+  color: #Fff;
+  width: 80%;
+  background: rgb(5,103,110);
+  background: radial-gradient(circle, rgba(5,103,110,1) 0%, rgba(166,142,166,1) 100%);
+  box-shadow: 0px 0px 30px 5px var(--ciano-medio)!important; 
+  border-radius: 10px;
+}
+
+.forum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 3rem 15rem;
+  margin-top: 1vh;
+  color: #fff!important;
+
+}
+
+#h1Servico {
+  text-align: center;
+  font-size: 2.9rem;
+  color: #fff!important;
+
+  font-weight: 500;
+}
+
+.btnForum {
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  background:transparent;
+  border: 1px solid #fff !important;
+  padding: 10px;
+  justify-content: center;
+  color: #ffffff!important;
+  width: 65vh;
+  gap: 5px;
+  transition: 0.3s ease;
+}
+.btnForum:hover {
+  color: #ffffff!important;
+  background: rgb(5,103,110);
+  background: radial-gradient(circle, rgba(5,103,110,1) 0%, rgba(166,142,166,1) 100%);
+  border: 1px solid #fff!important;
+}
+.btnForum:hover .icon {
+  margin-left: 0.11rem;
+  color: var(--whiteColor);
+  transform: translateX(22px);
+}
+
+.btnForum .icon {
+  font-size: 24px;
+  transition: 0.3s ease;
+}
+
+.messageList {
+  margin-top: 10vh;
+}
+.messageList h1 {
+color: var(--roxo-claro);}
+
+
+
+.messageList > * {
+  margin-bottom: 20px;
+}
+
+/* Estilo para o card das mensagens */
+.cardMensagem {
+  border: none;
+  background: rgb(5,103,110);
+  background: radial-gradient(circle, rgba(5,103,110,1) 0%, rgba(166,142,166,1) 100%);  
+  width: 90vh;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 0px 0px 30px 5px var(--ciano-medio)!important; 
+  border-radius: 10px;
+  margin-bottom: 10vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: var(--roxo-claro);
+}
+
+
+
+
+

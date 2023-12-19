@@ -1,0 +1,37 @@
+
+.parte-negocio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+.parte-negocio img {
+    width: 650px;
+    filter: drop-shadow(0px 0px 20px var(--roxo-claro));
+    z-index: -1;
+}
+
+.negocio-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.negocio-home p {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--ciano-medio);
+    width: 400px;
+    text-align: center;
+}
+
+.negocio-home h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--ciano-medio);
+    text-align: center;
+    margin-bottom: 15px;
+}

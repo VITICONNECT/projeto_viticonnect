@@ -1,0 +1,262 @@
+
+:root {
+  --ciano-medio: #05676E;
+  --ciano-claro: #95D4D9;
+  --verde-claro: #489C79;
+  --roxo-claro: #4D1D4D;
+  --roxo-escuro: #1A081F;
+  --lilas: #A68EA6;
+  --creme-fundo: #F5F4F2;
+
+  --ciano-medio-opacidade: #05697080;
+  --ciano-claro-opacidade: #96d5d980;
+  --verde-claro-opacidade: #489d7a80;
+  --roxo-claro-opacidade: #4e1d4e80;
+  --roxo-escuro-opacidade: #1b082080;
+  --lilas-opacidade: #a58da580;
+}
+
+
+.backDetalhe{   
+  background-image: url(../src/LoginAssets/bprin1.jpg);
+ background-repeat: no-repeat;
+  width: 100%;
+  padding: 10px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  overflow: hidden;
+}
+
+.sairDetalhe{
+  position: relative;
+}
+
+
+
+.containerDetalhe{
+  gap: 20px;
+  padding: 20px;
+  margin-top: 5vh;
+  display: flex;
+  
+}
+
+
+
+
+
+.btnDetalhe {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #1A081F; /* Cor do botão (escuro) */
+  padding: 10px 20px;
+  color: #fff;
+  transition: 0.3s ease;
+  margin-top: 20px; /* Espaçamento do botão */
+}
+
+.btnDetalhe:hover {
+  background: var(--lilas)!important; /* Cor do botão ao passar o mouse */
+  color: #fff!important;
+}
+
+
+
+.iconDetalhe {
+  font-size: 44px;
+  color: var(--roxo-claro)!important;
+  transition: 0.3s ease;
+}
+
+
+.blocoPefil{
+  height: 53vh;
+  display: flex;
+  background: rgb(77,29,77);
+  color: var(--verde-claro)!important;
+  background: transparent!important;
+  border: 0px solid var(--lilas-opacidade);
+  box-shadow: 0px 0px 30px 10px var(--lilas)!important; 
+  border-image: linear-gradient(180deg, rgba(166,142,166,1) 0%, rgba(5,103,110,1) 100%);
+  border-image-slice: 1;
+  
+}
+
+.blocoPefil h2{
+ text-align: center;
+ width: 100%;
+ position: absolute;
+ color: #05676E;
+  
+}
+
+/* .tituloPerfil{
+  background: yellow;
+  height: 10vh;
+  position:absolute;
+  text-align: center;
+  padding: 10px;
+
+}
+ */
+.containerPerfil1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: auto!important;
+  height: 35vh;
+
+}
+
+.containerPerfilBio{
+  width: 60vh;
+  height: 35vh;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.containerBlocoPerfil{
+  width: 100%;
+  height: auto;
+  margin-top: 20vh;
+  padding: 0%;  
+  margin: 0;
+  display: flex;
+}
+
+
+.blocoTabela{
+  height: 53vh;
+
+background: transparent!important;
+border: 1px solid var(--lilas-opacidade);
+box-shadow: 0px 0px 30px 5px var(--lilas)!important; 
+
+
+
+}
+.blocoTabela h2{
+  color: var(--ciano-medio);
+}
+
+.btnComprar {
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  background:var(--roxo-claro);
+  border: 0px solid #fff !important;
+  padding: 10px;
+  justify-content: center;
+  color: #fff !important;
+  width: 25vh;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+.btnComprar:hover {
+  background: var(--verde-claro)!important;
+  color: var(--whiteColor);
+}
+.btnComprar:hover .icon {
+  margin-left: 0.5rem;
+  color: var(--whiteColor);
+  transform: translateX(7px);
+}
+
+.btnComprar .icon {
+  font-size: 24px;
+  transition: 0.3s ease;
+}
+
+.textCardSlider{
+  font-weight: 100;
+}
+
+.textNomeEmail{
+  font-size: 16px;
+  flex-direction: column;
+
+}
+
+.css-85zwa9-MuiInputBase-root-MuiFilledInput-root.Mui-focused{
+  background-color: #d4c5d4!important;
+}
+
+.css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: var(--roxo-claro)!important;
+}
+
+.css-85zwa9-MuiInputBase-root-MuiFilledInput-root.Mui-focused{
+  color: #05676E!important;
+}
+
+.css-7209ej-MuiInputBase-input-MuiFilledInput-input:focus{
+  color: #05676E!important;
+  outline: #05676E!important;
+}
+#filled-multiline-static{
+  color: #fff!important;
+}
+#filled-multiline-static:hover{
+outline: #05676E;
+}
+
+
+
+
+
+.blocoComentario{
+  height: auto;
+  color: #fff!important;
+background: rgb(208, 190, 208);
+background: linear-gradient(176deg, rgb(155, 116, 155) 0%, rgba(5,103,110,1) 100%);
+
+
+}
+
+
+.css-85zwa9-MuiInputBase-root-MuiFilledInput-root{
+  color: #A68EA6!important;
+}
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background: rgb(5,103,110)!important;
+  background: radial-gradient(circle, rgba(5,103,110,1) 0%, rgba(166,142,166,1) 100%)!important;
+}
+
+.swiper-slide:nth-child(2n) {
+  background: rgb(5,103,110)!important;
+  background: radial-gradient(circle, rgba(5,103,110,1) 0%, rgba(166,142,166,1) 100%)!important;
+}
+
+.swiper-slide:nth-child(3n) {
+  background: rgb(5,103,110)!important;
+background: radial-gradient(circle, rgba(5,103,110,1) 0%, rgba(166,142,166,1) 100%)!important;
+}

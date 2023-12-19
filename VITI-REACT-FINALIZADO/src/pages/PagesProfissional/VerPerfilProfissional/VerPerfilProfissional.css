@@ -1,0 +1,227 @@
+
+:root {
+  --ciano-medio: #05676E;
+  --ciano-claro: #95D4D9;
+  --verde-claro: #489C79;
+  --roxo-claro: #4D1D4D;
+  --roxo-escuro: #1A081F;
+  --lilas: #A68EA6;
+  --creme-fundo: #F5F4F2;
+
+  --ciano-medio-opacidade: #05697080;
+  --ciano-claro-opacidade: #96d5d980;
+  --verde-claro-opacidade: #489d7a80;
+  --roxo-claro-opacidade: #4e1d4e80;
+  --roxo-escuro-opacidade: #1b082080;
+  --lilas-opacidade: #a58da580;
+}
+
+.backPerfilProfissional{   
+  background-image: url(../src/LoginAssets/back2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 3vh;
+  overflow: hidden!important;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+.sairProfissional{
+  position: relative;
+}
+
+
+
+.containerProfissional{
+  gap: 20px;
+  padding: 20px;
+  margin-top: 10vh;
+  display: flex;
+  
+}
+
+
+
+
+
+.btnProfissional{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #1A081F; /* Cor do botão (escuro) */
+  padding: 10px 20px;
+  color: #fff;
+  transition: 0.3s ease;
+  margin-top: 20px; /* Espaçamento do botão */
+}
+
+.btnProfissional:hover {
+  background: var(--lilas)!important; /* Cor do botão ao passar o mouse */
+  color: #fff!important;
+}
+
+
+
+.iconProfissional {
+  font-size: 44px;
+  color: var(--verde-claro);
+  transition: 0.3s ease;
+}
+
+
+.blocoPefilProfissional{
+  height: 53vh;
+  display: flex;
+  color: var(--verde-claro)!important;
+  background: transparent!important;
+  border: 0px solid var(--lilas-opacidade);
+  box-shadow: 0px 0px 30px 10px var(--lilas)!important; 
+  border-image: linear-gradient(180deg, rgba(166,142,166,1) 0%, rgba(5,103,110,1) 100%);
+  border-image-slice: 1;
+  
+}
+
+.blocoPefilProfissional h2{
+ text-align: center;
+ width: 100%;
+ position: absolute;
+ 
+ color: #05676E;
+  
+}
+
+/* .tituloPerfil{
+  background: yellow;
+  height: 10vh;
+  position:absolute;
+  text-align: center;
+  padding: 10px;
+
+}
+ */
+.containerPerfilProfissional{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  width: auto;
+  
+  
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  
+}
+
+.containerPerfilBioProfissional{
+  width: 60vh;
+  height: 35vh;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.containerBlocoPerfilProfissional{
+  width: 100%;
+  height: auto;
+  margin-top: 20vh;
+  padding: 0px;  
+  margin: 0;
+  display: flex;
+}
+
+
+.blocoTabelaProfissional{
+  height: 53vh;
+background: transparent!important;
+border: 1px solid var(--lilas-opacidade);
+box-shadow: 0px 0px 30px 5px var(--lilas)!important; 
+
+
+
+}
+.blocoTabelaProfissional h2{
+  color: var(--ciano-medio);
+}
+
+.btnComprarProfissional {
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  background:var(--roxo-claro);
+  border: 0px solid #fff !important;
+  padding: 10px;
+  justify-content: center;
+  color: #fff !important;
+  width: 25vh;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+.btnComprarProfissional:hover {
+  background: var(--lilas)!important;
+  color: var(--whiteColor);
+}
+.btnComprarProfissional:hover .icon {
+  margin-left: 0.5rem;
+  color: var(--whiteColor);
+  transform: translateX(7px);
+}
+
+.btnComprarProfissional .icon {
+  font-size: 24px;
+  transition: 0.3s ease;
+}
+
+.textCardSliderProfissional{
+  font-weight: 100;
+}
+
+.textNomeEmailProfissional{
+  font-size: 16px;
+  flex-direction: column;
+}
+
+.css-85zwa9-MuiInputBase-root-MuiFilledInput-root.Mui-focused{
+  background-color: #d4c5d4!important;
+}
+
+.css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: var(--roxo-claro)!important;
+}
+
+.css-85zwa9-MuiInputBase-root-MuiFilledInput-root.Mui-focused{
+  color: #05676E!important;
+}
+
+.css-7209ej-MuiInputBase-input-MuiFilledInput-input:focus{
+  color: #05676E!important;
+  outline: #05676E!important;
+}
+
+
+
+.mySwiperProfissional {
+  width: 70vh!important;
+  height: 320px;
+  
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  
+}
+

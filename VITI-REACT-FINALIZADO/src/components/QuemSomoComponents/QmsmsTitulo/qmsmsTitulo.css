@@ -1,0 +1,34 @@
+
+#t-principal-qmsms {
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--roxo-claro);
+    padding-right: 0vh;
+}
+
+#p-inicial-qmsms {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--roxo-claro);
+}
+
+#mancha-esquerda-qmsms {
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    top:100vh;
+    z-index: -1;
+}
+
+
+#textosPrincipal{
+width:130vh;
+margin-left: 35vh;
+
+}
+
+#containerTitulo{
+    margin-top: 60vh;
+}

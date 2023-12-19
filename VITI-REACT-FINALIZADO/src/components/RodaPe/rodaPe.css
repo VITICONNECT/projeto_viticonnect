@@ -1,0 +1,76 @@
+:root {
+    --ciano-medio: #05676E;
+    --ciano-claro: #95D4D9;
+    --verde-claro: #489C79;
+    --roxo-claro: #4D1D4D;
+    --roxo-escuro: #1A081F;
+    --lilas: #A68EA6;
+    --creme-fundo: #F5F4F2;
+
+    --ciano-medio-opacidade: #05697080;
+    --ciano-claro-opacidade: #96d5d980;
+    --verde-claro-opacidade: #489d7a80;
+    --roxo-claro-opacidade: #4e1d4e80;
+    --roxo-escuro-opacidade: #1b082080;
+    --lilas-opacidade: #a58da580;
+}
+
+.rodape {
+    background: rgb(5,103,110);
+    background: radial-gradient(circle, rgba(5,103,110,1) 0%, rgba(166,142,166,1) 100%);    padding: 20px 100px;
+    
+}
+
+.lado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colu:first-child {
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.viti {
+    width: 70px;
+    height: 70px;
+}
+
+.whats {
+    width: 130px;
+}
+
+.colu {
+    color: var(--creme-fundo);
+}
+
+.colu h2 {
+    font-size: 25px;
+    color: var(--creme-fundo);
+    font-weight: 500;
+}
+
+.rede {
+    width: 100%;
+    padding: 15px 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes {
+    width: 130px;
+}

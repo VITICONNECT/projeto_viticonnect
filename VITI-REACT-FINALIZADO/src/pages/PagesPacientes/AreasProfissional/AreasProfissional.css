@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+:root {
+  --ciano-medio: #05676E;
+  --ciano-claro: #95D4D9;
+  --verde-claro: #489C79;
+  --roxo-claro: #4D1D4D;
+  --lilas: #A68EA6;
+  --creme-fundo: #F5F4F2;
+  --ciano-medio-opacidade: rgba(5, 105, 112, .5);
+  --ciano-claro-opacidade: rgba(150, 213, 217, .5);
+  --verde-claro-opacidade: rgba(72, 157, 122, .5);
+  --roxo-claro-opacidade: rgba(78, 29, 78, .5);
+  --lilas-opacidade: rgba(165, 141, 165, .5);
+}
+.backAreas{   
+  background-image: url(../src/LoginAssets/back2.png);
+ background-repeat: no-repeat;
+  width: 100%;
+  padding: 40px;
+  background-size: cover;
+
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+
+
+.btnServico {
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid #fff!important;
+  padding: 1rem 1rem;
+  color: #fff!important;
+  margin-right: 20px;
+  width: 25vh;
+  transition: 0.3s ease;
+}
+.btnServico:hover {
+  background:var(--lilas);
+  color: #fff!important;
+}
+.btnServico:hover .icon {
+  margin-left: 0.5rem;
+  color: #fff;
+  transform: translateX(7px);
+}
+
+.btnServico .icon {
+  font-size: 24px;
+  transition: 0.3s ease;
+}
+
+.titulo-servicos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 70px;
+  
+}
+
+.titulo-servicos h2 {
+  font-size: 45px;
+  font-weight: 400;
+  color: var(--lilas)!important;
+
+  margin-top: 10px;
+  color: var(--ciano-medio)!important;
+  text-align: center;
+}
+
+.titulo-servicos h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#profissionais-qualidade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#area-desejada {
+  margin-left: 100px;
+  margin-bottom: 50px;
+
+}
+
+.areas {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+.areas .areas-cima {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  height: auto;
+  justify-content: center;
+   
+
+}
+
+
+.cardServico{
+  background: rgb(5,103,110);
+background: linear-gradient(1deg, rgba(5,103,110,1) 0%, rgba(166,142,166,1) 100%);
+   border: 1px solid var(--lilas);
+  box-shadow: 0px 0px 30px 5px var(--ciano-medio)!important; 
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.bodyCard {
+padding: 10px;
+
+}

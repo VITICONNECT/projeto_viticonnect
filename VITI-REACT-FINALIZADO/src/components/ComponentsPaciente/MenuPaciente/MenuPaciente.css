@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; }
+
+:root {
+  --roxo-escuro: #1A081F;
+  --roxo-claro: #4D1D4D;
+  --ciano-medio: #05676E;
+  --verde-claro: #489C79;
+  --ciano-claro:#95D4D9;
+  --branco: #FFF;
+  --gradient:rgb(5,103,110) linear-gradient(180deg, rgba(5,103,110,1) 0%, rgba(26,8,31,1) 100%);
+  --fonte-principal: "Oswald", sans-serif;
+  --fonte-secundaria: "Playfair Display", sans-serif;
+  font-family: var(--fonte-principal); }
+
+
+ 
+.headerPaciente {
+  display: flex;
+  justify-content: space-between;
+  background: var(--ciano-medio)!important;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+
+  .headerPaciente .navegacao {
+  -moz-column-gap: 4rem;
+  column-gap: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+  .headerPaciente .btnMenuPaciente {
+  margin-right: 10px; }
+
+
+.navegacao a {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.logo1 {
+  float: left; }
+
+.imgLogo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px; }
+
+.imgLogo p {
+  padding-left: 12px;
+  letter-spacing: 4px;
+  color: var(--branco);
+  font-size: 16px; }
+
+.login {
+  padding-right: 20px; }
+
+.flex {
+  display: flex;
+  align-items: center; }
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5em; }
+
+html {
+  font-size: 90%; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.icon {
+  font-size: var(--h2FontSize);
+  cursor: pointer; }
+
+img {
+  height: auto;
+  width: 100%; }
+
+.btnMenuPaciente {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px!important;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #ffffff;
+  padding: 0.5rem;
+  margin-right: 10px;
+  width: 8vh;
+  transition: 0.3s ease; }
+
+.btnMenuPaciente:hover {
+  background: var(--lilas);
+  color: var(--lilas); }
+
+.btnMenuPaciente:hover .icon {
+  margin-left: 0.3rem;
+
+  color: var(--whiteColor);
+  transform: translateY(-15px) ; }
+
+.btnPersonPaciente {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px!important;
+  border: 1px solid #fff;
+  background: var(--ciano-medio)!important;
+  padding: 2vh;
+  color: #fff;
+  transition: 0.3s ease; }
+
+.btnPersonPaciente:hover {
+  background: var(--lilas)!important;
+  color: var(--whiteColor); }
+
+.btnPersonPaciente:hover .icon {
+  color: var(--whiteColor);
+ }
+
+.btnMenuPaciente .icon {
+  font-size: 25px;
+  transition: 0.3s ease; }
+
+.btnPersonPaciente .icon {
+  font-size: 25px!important;
+  transition: 0.3s ease; }
+
+  Link {
+    text-decoration: none; 
+  }
+  
+  .sair Link span .icon {
+  color: #fff;; 
+    
+}
+
+
+@media (max-width: 744px) {
+  .navegacao {
+    height: 72px; } }
+

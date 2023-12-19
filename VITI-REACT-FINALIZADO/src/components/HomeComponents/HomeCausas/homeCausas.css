@@ -1,0 +1,37 @@
+
+.causas-vitiligo h3 {
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--creme-fundo);
+    margin-bottom: 40px;
+    margin-left: 90px;
+    margin-top: 22vh;
+}
+
+.causas-vitiligo p {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--creme-fundo);
+    width: 700px;
+    margin-left: 90px
+}
+
+#primeira-mancha-home {
+    position: absolute;
+    width: 100%;
+    z-index: -2;   
+     
+}
+
+#homem-home {
+    position: absolute;
+    width: 420px;
+    right: 55px;
+    z-index: -1;
+}
+
+.causas-vitiligo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40vh;
+}
